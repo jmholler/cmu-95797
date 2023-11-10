@@ -4,35 +4,35 @@ sources:
       - name: bike_data
         columns:
           - name: tripduration
-            data_type: BIGINT
+            data_type: CHARACTER VARYING(256)
           - name: starttime
-            data_type: TIMESTAMP
+            data_type: CHARACTER VARYING(256)
           - name: stoptime
-            data_type: TIMESTAMP
+            data_type: CHARACTER VARYING(256)
           - name: start station id
-            data_type: BIGINT
+            data_type: CHARACTER VARYING(256)
           - name: start station name
             data_type: CHARACTER VARYING(256)
           - name: start station latitude
-            data_type: DOUBLE
+            data_type: CHARACTER VARYING(256)
           - name: start station longitude
-            data_type: DOUBLE
+            data_type: CHARACTER VARYING(256)
           - name: end station id
-            data_type: BIGINT
+            data_type: CHARACTER VARYING(256)
           - name: end station name
             data_type: CHARACTER VARYING(256)
           - name: end station latitude
-            data_type: DOUBLE
+            data_type: CHARACTER VARYING(256)
           - name: end station longitude
-            data_type: DOUBLE
+            data_type: CHARACTER VARYING(256)
           - name: bikeid
-            data_type: BIGINT
+            data_type: CHARACTER VARYING(256)
           - name: usertype
             data_type: CHARACTER VARYING(256)
           - name: birth year
-            data_type: BIGINT
+            data_type: CHARACTER VARYING(256)
           - name: gender
-            data_type: BIGINT
+            data_type: CHARACTER VARYING(256)
           - name: ride_id
             data_type: CHARACTER VARYING(256)
           - name: rideable_type
@@ -69,19 +69,19 @@ sources:
           - name: name
             data_type: CHARACTER VARYING(256)
           - name: date
-            data_type: DATE
+            data_type: CHARACTER VARYING(256)
           - name: awnd
-            data_type: DOUBLE
+            data_type: CHARACTER VARYING(256)
           - name: prcp
-            data_type: DOUBLE
+            data_type: CHARACTER VARYING(256)
           - name: snow
-            data_type: DOUBLE
+            data_type: CHARACTER VARYING(256)
           - name: snwd
-            data_type: DOUBLE
+            data_type: CHARACTER VARYING(256)
           - name: tmax
-            data_type: BIGINT
+            data_type: CHARACTER VARYING(256)
           - name: tmin
-            data_type: BIGINT
+            data_type: CHARACTER VARYING(256)
           - name: filename
             data_type: CHARACTER VARYING(256)
 
