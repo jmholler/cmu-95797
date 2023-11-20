@@ -259,7 +259,7 @@ models:
             - not_null
             - dbt_expectations.expect_column_values_to_be_of_type:
                 column_type: bool
-            - dbt_expectations.accepted_values:
+            - accepted_values:
                 values: ['Y', 'N']
 
       - name: shared_match_flag
@@ -268,7 +268,7 @@ models:
             - not_null
             - dbt_expectations.expect_column_values_to_be_of_type:
                 column_type: bool
-            - dbt_expectations.accepted_values:
+            - accepted_values:
                 values: ['Y', 'N']
 
       - name: access_a_ride_flag
