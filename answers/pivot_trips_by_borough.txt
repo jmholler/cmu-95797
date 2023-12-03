@@ -1,0 +1,6 @@
+
+PIVOT "main"."main"."mart__fact_trips_by_borough"
+ON Borough
+USING MAX(Trips)
+'Bronx','Brooklyn','EWR','Manhattan','Queens','Staten Island','Unknown'
+4855611,9368642,1972,17046224,6595648,510684,916786
