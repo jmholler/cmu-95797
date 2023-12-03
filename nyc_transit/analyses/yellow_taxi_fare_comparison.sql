@@ -1,3 +1,5 @@
+.echo on
+
 SELECT
    yel.fare_amount,
    AVG(yel.fare_amount) OVER() as avg_fare,
